@@ -7,3 +7,6 @@ for i in l:
         d[i]='yes'
     else:
         d[i]='no'
+for i in l:
+    print(i,len(i))
+    
