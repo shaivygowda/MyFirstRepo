@@ -1,5 +1,6 @@
 l=['ABA','PYT','XYZ','MOM','NAN','HANNAH']
 d={}
+d1={}
 for i in l:
     print(i)
 for i in l:
@@ -9,4 +10,5 @@ for i in l:
         d[i]='no'
 for i in l:
     print(i,len(i))
-    
+for i in l:
+    d1[i]=len(i)
