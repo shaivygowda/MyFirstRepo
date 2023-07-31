@@ -21,3 +21,10 @@ for i in l:
             c+=1
     d[i]=c
 print(d)
+for i in l:
+    c=0
+    for j in  range(len(i)):
+        if i[j] not in ['AEIOU']:
+            c+=1
+    d[i]=c
+print(d)
